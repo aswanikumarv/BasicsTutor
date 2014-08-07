@@ -8,13 +8,19 @@
 
 #import "AppDelegate.h"
 
+
 @implementation AppDelegate
+@synthesize navController;
+@synthesize basicVC;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.basicVC=[[BasicsViewController alloc] initWithNibName:@"BasicsViewController" bundle:nil];
+    self.navController=[[UINavigationController alloc] initWithRootViewController:self.basicVC];
+    self.window.rootViewController=self.navController;
     [self.window makeKeyAndVisible];
     return YES;
 }

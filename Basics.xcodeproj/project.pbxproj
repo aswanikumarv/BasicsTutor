@@ -19,6 +19,12 @@
 		CD2B14CE1991F4E300D56E1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2B14B61991F4E300D56E1B /* UIKit.framework */; };
 		CD2B14D61991F4E300D56E1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD2B14D41991F4E300D56E1B /* InfoPlist.strings */; };
 		CD2B14D81991F4E300D56E1B /* BasicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B14D71991F4E300D56E1B /* BasicsTests.m */; };
+		CD2B14E41991F50700D56E1B /* BasicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B14E21991F50700D56E1B /* BasicsViewController.m */; };
+		CD2B14E51991F50700D56E1B /* BasicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2B14E31991F50700D56E1B /* BasicsViewController.xib */; };
+		CD2B14E919923BA900D56E1B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B14E719923BA900D56E1B /* SecondViewController.m */; };
+		CD2B14EA19923BA900D56E1B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2B14E819923BA900D56E1B /* SecondViewController.xib */; };
+		CD2B14EE19923E9E00D56E1B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2B14EC19923E9E00D56E1B /* ThirdViewController.m */; };
+		CD2B14EF19923E9E00D56E1B /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2B14ED19923E9E00D56E1B /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		CD2B14D31991F4E300D56E1B /* BasicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicsTests-Info.plist"; sourceTree = "<group>"; };
 		CD2B14D51991F4E300D56E1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD2B14D71991F4E300D56E1B /* BasicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicsTests.m; sourceTree = "<group>"; };
+		CD2B14E11991F50700D56E1B /* BasicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicsViewController.h; sourceTree = "<group>"; };
+		CD2B14E21991F50700D56E1B /* BasicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicsViewController.m; sourceTree = "<group>"; };
+		CD2B14E31991F50700D56E1B /* BasicsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicsViewController.xib; sourceTree = "<group>"; };
+		CD2B14E619923BA900D56E1B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CD2B14E719923BA900D56E1B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CD2B14E819923BA900D56E1B /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		CD2B14EB19923E9E00D56E1B /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		CD2B14EC19923E9E00D56E1B /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		CD2B14ED19923E9E00D56E1B /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +124,15 @@
 			children = (
 				CD2B14C11991F4E300D56E1B /* AppDelegate.h */,
 				CD2B14C21991F4E300D56E1B /* AppDelegate.m */,
+				CD2B14E11991F50700D56E1B /* BasicsViewController.h */,
+				CD2B14E21991F50700D56E1B /* BasicsViewController.m */,
+				CD2B14E31991F50700D56E1B /* BasicsViewController.xib */,
+				CD2B14E619923BA900D56E1B /* SecondViewController.h */,
+				CD2B14E719923BA900D56E1B /* SecondViewController.m */,
+				CD2B14E819923BA900D56E1B /* SecondViewController.xib */,
+				CD2B14EB19923E9E00D56E1B /* ThirdViewController.h */,
+				CD2B14EC19923E9E00D56E1B /* ThirdViewController.m */,
+				CD2B14ED19923E9E00D56E1B /* ThirdViewController.xib */,
 				CD2B14C41991F4E300D56E1B /* Images.xcassets */,
 				CD2B14B91991F4E300D56E1B /* Supporting Files */,
 			);
@@ -219,7 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2B14EA19923BA900D56E1B /* SecondViewController.xib in Resources */,
+				CD2B14E51991F50700D56E1B /* BasicsViewController.xib in Resources */,
 				CD2B14BD1991F4E300D56E1B /* InfoPlist.strings in Resources */,
+				CD2B14EF19923E9E00D56E1B /* ThirdViewController.xib in Resources */,
 				CD2B14C51991F4E300D56E1B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2B14E919923BA900D56E1B /* SecondViewController.m in Sources */,
+				CD2B14EE19923E9E00D56E1B /* ThirdViewController.m in Sources */,
+				CD2B14E41991F50700D56E1B /* BasicsViewController.m in Sources */,
 				CD2B14C31991F4E300D56E1B /* AppDelegate.m in Sources */,
 				CD2B14BF1991F4E300D56E1B /* main.m in Sources */,
 			);
@@ -437,6 +467,7 @@
 				CD2B14DD1991F4E300D56E1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD2B14DE1991F4E300D56E1B /* Build configuration list for PBXNativeTarget "BasicsTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +476,7 @@
 				CD2B14E01991F4E300D56E1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
